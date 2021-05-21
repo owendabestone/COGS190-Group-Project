@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
 import '../assets/css/fonts.css';
 import LandingImage from "../images/landing.svg"
 
@@ -79,9 +79,9 @@ const IndexPage = () => {
             Our AI intereprets user reviews of your business to give you a complete summary of ways to 
             improve your business to maximize efficiency and user experience.
           </p>
-          {/* <Link to="/404"> */}
+          {/*<Link to="/search">*/}
             <button style={buttonStyles}>Get started!</button>
-          {/* </Link> */}
+          {/*</Link>*/}
         </div>
       </div>
     </main>
