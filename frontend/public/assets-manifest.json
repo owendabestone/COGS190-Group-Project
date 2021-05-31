@@ -1,0 +1,7 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/landing.svg": "static/landing-18ecfe26d024b901caf8310b6455499f.svg",
+  "static/piechart.png": "static/piechart-66e7ea751b341b44d16f4f57d01aa054.png",
+  "static/search_graphic.png": "static/search_graphic-554f6bc7ae4ffe47ff6f8615ef4a498a.png"
+}
