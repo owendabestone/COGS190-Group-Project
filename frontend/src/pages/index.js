@@ -6,7 +6,9 @@ import LandingImage from "../images/landing.svg"
 // styles
 const pageStyles = {
   color: "#232129",
-  padding: 96,
+  padding: 63,
+  overflowY: 'hidden',
+  height: "100%",
   fontFamily: "Comfortaa, sans-serif, serif",
 }
 
@@ -28,13 +30,13 @@ const colStyles = {
 
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 32,
-  fontSize: 64,
+  marginBottom: 15,
+  fontSize: 50,
   fontWeight: "bold",
 }
 
 const paragraphStyles = {
-  fontSize: 24,
+  fontSize: 16,
   lineHeight: "200%",
   marginBottom: 32,
 }
@@ -57,8 +59,10 @@ const buttonStyles = {
   padding: "3% 10%",
   display: "inline-block",
   position: "relative",
-  lineHeight: 1,
-  width: "50%",
+  lineHeight: 1.5,
+  textAlign: "center",
+  height: "2rem",
+  width: "15rem",
 }
 
 // markup
@@ -79,9 +83,9 @@ const IndexPage = () => {
             Our AI intereprets user reviews of your business to give you a complete summary of ways to 
             improve your business to maximize efficiency and user experience.
           </p>
-          {/*<Link to="/search">*/}
-            <button style={buttonStyles}>Get started!</button>
-          {/*</Link>*/}
+          <Link to="/search">
+            <div style={buttonStyles}>Get started!</div>
+          </Link>
         </div>
       </div>
     </main>
