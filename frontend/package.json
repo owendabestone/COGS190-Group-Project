@@ -17,6 +17,7 @@
   "dependencies": {
     "@babel/runtime": "^7.14.0",
     "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.5.0",
     "gatsby-plugin-typesense": "^0.3.0",
@@ -24,6 +25,7 @@
     "js-search": "^2.0.0",
     "lunr": "^2.3.9",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "striptags": "^3.1.1"

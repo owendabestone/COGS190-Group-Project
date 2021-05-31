@@ -36,6 +36,24 @@ const backText = {
     fontSize: 14,
 }
 
+const buttonStyles = {
+  color: "#000",
+  backgroundColor: "#088413",
+  border: 0,
+  fontFamily: "Comfortaa, sans-serif, serif",
+  fontSize: 24,
+  fontWeight: "bold",
+  letterSpacing: 1,
+  borderRadius: 25,
+  background: "linear-gradient(92.89deg, #E8C9FF -27.23%, #FFDBFE 35.81%, #FFF2BE 114.81%)",
+  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+  padding: "3% 10%",
+  display: "inline-block",
+  position: "relative",
+  lineHeight: 1,
+  width: "5%",
+}
+
 const TextField = () => {
     return (<input placeholder="Enter your address" />)
 }
@@ -55,6 +73,7 @@ const SearchPage = () => {
         </h1>
 
         <TextField></TextField>
+        <button style={buttonStyles}>Enter</button>
 
       </div>
             
